@@ -121,6 +121,26 @@ body {
     }
 }
 
+/* Footer Styles */
+.footer {
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+}
+
+
 ::-webkit-scrollbar {
     width: 8px;
 }
