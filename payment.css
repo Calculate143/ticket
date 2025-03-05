@@ -112,11 +112,12 @@ h3 {
 
 /* Footer Styles */
 .footer {
+    position: relative;
+    margin-top: 20px;
     background: rgba(0, 0, 0, 0.2);
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
     font-size: 14px;
